@@ -1,0 +1,37 @@
+.slidecontainer {
+    width: 100%;
+}
+  
+.slider {
+-webkit-appearance: none;
+width: 50%;
+height: 20px;
+border-radius: 50px;
+background: #d3d3d3;
+outline: none;
+opacity: 0.7;
+-webkit-transition: .2s;
+transition: opacity .2s;
+opacity: 0.1;                /* Aqui en un futuro se cambia a 0 para no aparecer en el vidio*/
+}
+
+.slider:hover {
+opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+-webkit-appearance: none;
+appearance: none;
+width: 25px;
+height: 25px;
+border-radius: 100%;
+background: cyan;
+cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+width: 25px;
+height: 25px;
+background: cyan;
+cursor: pointer;
+}

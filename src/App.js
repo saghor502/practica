@@ -1,19 +1,18 @@
 import './App.css';
+import button from './button';
+import slider from './slider';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className = "video">
+          Aqui va a estar el video jajajaja
+        </div>
+        <div className = "seccion">
+          {button()}
+          {slider()}
+        </div>
       </header>
     </div>
   );
